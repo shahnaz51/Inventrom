@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mid{
+    background-image: url("/img/background-layer.png");
+    
+}
+.navbar{
+    
+    background-color: rgb(255, 255, 255);
+    padding: 0 50px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item1{
+    display: flex;
+}
+
+.litem{
+    
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 80px;
+    width: 200px;
+    justify-content: center;
+}
+
+.litem a{
+    color: #0a0a0a;
+    text-decoration: none;
+    font-size: 23px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.litem a:hover{
+    color: rgb(88, 50, 3);
+    text-decoration: underline;
+}
+
+.mid{
+    color: white;
+    height: 630px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot{
+    background-color: #139139;
+    height: 85px;
+    padding-top: 10px;
+    margin-top: 145.49px;
+}
+.social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.svg{
+    padding: 0 10px;
+}
+.copy{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#about{
+    background-color: white;
+    padding: 40px 0;
+}
+#awards{
+    background-color: white;
+    padding: 100px 0;
+}
+#getintouch{
+    background-color: white;
+    padding: 100px 0;
+}
